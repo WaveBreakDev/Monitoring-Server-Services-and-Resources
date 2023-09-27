@@ -1,6 +1,6 @@
  # Server Monitoring Setup
 
-This document provides a step-by-step guide to setting up a server monitoring system to monitor specific services and resources on a Windows server. The purpose of this system is to troubleshoot development issues and ensure that FileMaker Data API is not consuming excessive resources due to misconfigured scripts or imports. This guide assumes that the user has a basic understanding of PowerShell and Microsoft Graph API.
+This document provides a step-by-step guide to setting up a server monitoring system to monitor specific services and resources on a Windows server. The purpose of this system is to troubleshoot development issues and ensure that your development isn't degrading the servers resources. This was made to help monitor and troubleshoot a FileMaker Server and FileMaker Data API. This guide assumes that the user has a basic understanding of PowerShell and Microsoft Graph API.
 
 ## Prerequisites
 
