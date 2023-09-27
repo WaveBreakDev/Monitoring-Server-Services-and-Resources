@@ -50,4 +50,34 @@ To configure Task Scheduler, follow these steps:
 2. Go to **Tools**.
 3. Click on **Task Scheduler**.
 4. Click on **Create Task**.
-5. On the **General** tab,
+5. On the **General** tab Tab Name the task
+
+6. Ensure **Run whether user is logged on or not** is selected
+
+7. Go to the **Triggers Tab**
+
+8. Click **New Trigger**
+
+9. Ensure the Begin the Task has **On a schedule**
+
+10. Select One Time and set the date and time of when to start it
+
+11. In Advanced Settings select **Repeat task every** and set the time interval you desire. 
+
+12. The **for a duration of** is set to indefinitely.
+
+13. Click **Ok**.
+
+14. Go to the **Actions** Tab
+
+15. Click on New
+
+16. Set the Action drop down to **Start a program**
+
+17. Program/Script field needs **Powershell.exe**
+
+18. In the **Add arguments (optional):** to the file path of the powershell script
+
+19. Press Ok
+
+20. Press Ok on the main window to set your schedule task
